@@ -6,16 +6,15 @@
 > 6. Publish and include this repo in your Codewar Gallery
 
 
-# [<challenge name>](https://www.codewars.com/kata/<challenge name>)
+# [convert-a-number-to-a-string](https://www.codewars.com/kata/convert-a-number-to-a-string)
 
 Explain the challenge as completely as you can.
 
-<function name>: Function
-* Args: (how many args does this function take?)
-  * (List each arg, it's type, and it's purpose)
-* Return: (what type does this function return?)
-  * (Describe the return value)
-* Behavior: (What does this function do?)
+numberToString: Function
+* Args: 1
+  * number
+* Return: string
+* Behavior: this function changes number into string
 
 
 ### Index
@@ -37,6 +36,98 @@ This may feel tedious but we promise you it will pay off in the long run.  By pa
 If you find yourself getting stuck or having trouble understanding just what you're supposed to do, try taking a few simple examples inputs and solving them by hand.  This will make the problem more tangible and less abstract.  Be sure to include these manual solutions in your process description!
 
 Stick with it!  It's best to learn how to analyze your thinking while the problems are simpler.  You don't want to be trying to understand a full project __and__ your problem solving style a the same time.
+
+
+0. Codewars challenge
+    ```
+    Complete the solution so that it changes number to string.
+    ```
+1. Phrased as a function  
+    ```
+    Write a function called numberToString which changes the given number to string.
+    ```
+2. Define arguments and return value   
+    ```
+    Write a function that takes in a number and converts to string. 
+    ```
+3. Convert that sentence into high-high level pseudocode.
+    ```
+    solution(num)
+        convert num into string
+        return num as a string 
+    End solution
+    ```
+4. Declare return value, isolate the challenging bit.
+    ```
+ 	solution(num)
+        convert num into string
+        return num as a string 
+    End solution  
+    ```
+5. Begin exploring the challenging bit.
+    ```
+    solution(num)
+        convert num into string
+        available options:
+            - for or while loops ?
+            - if statements ? 
+            + string methods ?
+        return num as a string
+    End solution   
+    ```
+6. Continue exploring the challenging bit.
+    ```
+    solution(num)
+        convert num into string
+        available options: String methods
+            - String.length
+            - String.indexOf
+            - String.search
+            + String.split
+            - String.substring
+            - String.slice
+            - String.replace
+        return string
+    End solution   
+    ```
+7. Continue exploring the challenging bit.
+    ```
+    solution(num)
+        convert num into string
+        two possible strategies:
+            + toString () method
+            - for/while loop
+        return repeatStr
+    End solution   
+    ```
+8. Continue exploring the challenging bit.
+    ```
+     
+    ```
+9. Decided on a strategy.
+    ```
+    solution(num)
+        repeat_String_NumTimes<- ""
+        convert to array and back to string
+            ...
+        return repeat_String_NumTimes
+    End solution   
+    ```
+10. Refactoring pseudocode closer to real code
+    ```
+    solution(string)
+        repeat_String_NumTimes <- ""
+        ...
+        return repeat_String_NumTimes
+    End solution   
+    ```
+11. Convert pseudocode to real code.
+    ```js
+    function repeat_String_NumTimes(n, "string") {
+        ...
+        return repeat_String_NumTimes;
+    };  
+    ```
 
 [TOP](#index)
 
